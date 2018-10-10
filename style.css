@@ -1,0 +1,89 @@
+*{
+    font-size: 15px;
+}
+
+.app{
+    max-width: 700px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.header{
+    font-family: 'Golada', cursive ;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;  
+}
+
+.hotel-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.search-bar{
+    width: 100%;
+    position: relative;
+}
+
+.search-input{
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 42px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+
+    border: none;
+    border-bottom: 4px solid red;
+    transition: border-bottom .3s linear;
+    font-size: 24px;
+}
+
+.search-input:focus{
+    border-bottom: 4px solid yellow;
+    outline: 0;
+}
+
+.hotrl-kard{
+    width: 100%;
+    max-width: 320px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+.hotel-title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.hotel-desc{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.hotel-image{
+    max-width: 100%;
+}
+
+.hotel-book{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotel-book-link{
+    text-decoration: none;
+    padding: 12px 9px;
+    background-color: #FFC107;
+    color:white;
+    border-radius: 4px;
+}
+
+.hotel-price{
+    font-weight: 600;
+}
